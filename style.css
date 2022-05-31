@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Slabo+27px&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    
+    
+}
+nav{
+    font-family: sans-serif;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    list-style-type: none;
+    color: white;
+}
+nav ul li{
+    padding: 10px;
+}
+
+.brand img{
+    width: 47px;
+    padding: 8px;
+  
+}
+
+.brand{
+      display: flex;
+      align-items: center;
+      font-weight: bolder;
+      font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex; 
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 15px;
+    background-image: url(./bg.jpg);
+    background-size:cover;
+    padding: 35px;
+    color: white;
+}
+h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Slabo 27px', serif;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+#myprogressbar{
+    width: 80vw;
+    height: 15px;
+    cursor: pointer;
+}
+.bottom{
+    position:static;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 66px;
+}
+i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 54px;
+    display: flex;
+    background-color: hsl(180, 100%, 90%);
+
+    color: black;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.songItem img{
+    width: 46px;
+    margin: 0 23px;
+    border-radius: 10px;
+}
+.songName{
+    font-size: 23px;
+    font-weight: bold;
+}
+.timespan{
+    margin: 5px 15px;
+    font-size: 25px;
+}
+.songInfo{
+    position:absolute;
+    left: 9vw;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
